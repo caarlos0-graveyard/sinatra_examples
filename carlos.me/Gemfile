@@ -1,0 +1,10 @@
+source :rubygems
+
+gem "dogo"
+gem "unicorn"
+
+group :development do
+  gem "pry"
+  gem "awesome_print"
+  gem "thin"
+end
